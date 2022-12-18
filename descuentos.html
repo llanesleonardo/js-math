@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Como calcular precios con descuentos</title>
+  </head>
+  <body>
+    <h1>Como calcular precios con descuentos</h1>
+
+    <label for="price">Precio original del producto:</label>
+    <input type="number" id="price" />
+    <label for="discount">Descuento del producto:</label>
+    <input type="number" id="discount" />
+    <hr />
+    <br />
+    <input type="radio" id="radioCupones1" name="cupons" value="15" />
+    <label for="radioCupones1">platziHappy</label>
+    <br />
+    <input type="radio" id="radioCupones2" name="cupons" value="20" />
+    <label for="radioCupones1">platziJoy</label>
+    <br />
+    <input type="radio" id="radioCupones3" name="cupons" value="40" />
+    <label for="radioCupones1">platziBeginner</label>
+    <br />
+    <br />
+    <button id="calcular">Calcular descuentos</button>
+
+    <p id="result"></p>
+
+    <script src="./descuentos.js"></script>
+  </body>
+</html>
