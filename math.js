@@ -81,5 +81,3 @@ console.log({
 });
 
 /**-------------------------------------- */
-
-const precioAplicadoPorcentaje = (precio * (100 - 15)) / 100;
